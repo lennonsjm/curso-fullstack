@@ -8,26 +8,46 @@ body{
 
 
 
-header{
+header {
     display: flex;
     background: #000;
     color: #f5f5f5;
-    justify-content: space-between;
-    padding: 12px;
+    
+   height: 100px; /* maximo de tamanho*/
 
 }
 
-header nav ul{
+.contentHeader{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+   
+    justify-content: space-between;
+}
+
+header  h1{
+    margin: 20px;
+}
+
+header  nav ul{
     display: flex;
     list-style: none;
-    gap: 20px;
+   
     
     
 }
 
-header nav ul a{
+header  nav ul a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #f5f5f5;
+    padding: 20px;
+}
+
+header  ul a:hover{
+    text-decoration: underline blue;
+    color: orange;
 }
 
