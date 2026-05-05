@@ -29,6 +29,7 @@ header {
     align-items: center;
     max-width: 1000px;
     width: 100%;
+    flex-wrap: wrap;
   
     justify-content: space-between;
 }
@@ -64,6 +65,11 @@ header  ul a:hover{
 
 .carrosel img{
     border-radius: 5px;
+    width: 100%;
+}
+
+.carrosel article img{
+
 }
 
 .cards{
@@ -76,6 +82,7 @@ header  ul a:hover{
  .card {
     padding: 20px;
     background-color: white;
-    border: 1px solid red;
+    border-radius: 10px;
     margin-top: 20px;
+    border: 1px solid grey;
 }
