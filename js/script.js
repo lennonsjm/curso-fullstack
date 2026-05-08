@@ -1,5 +1,6 @@
-function minhaFuncao(){
-    alert("socorro");
-}
+let valor = 7;
 
-minhaFuncao();
+valor = valor +1;
+valor = valor -2;
+
+ console.log(valor);
