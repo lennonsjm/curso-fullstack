@@ -1,6 +1,4 @@
-let valor = 7;
+for (let i = 0; i <= 5; i++){
+    console.log("O valor do i, e de: " + i);
+}
 
-valor = valor +1;
-valor = valor -2;
-
- console.log(valor);
