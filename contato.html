@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MC Máquinas</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
     <div class="container">
       <header>
         <section class="contentHeader">
@@ -20,28 +20,55 @@
           </nav>
         </section>
       </header>
-<main>
-    <section>
-    <form>
-        <article class="form-group">
-<label for="nome">Nome:</label><br>
-<input type="text" for="nome" id="nome"><br><br>
-<label for="email">Email:</label><br>
-<input type="text" for="email" id="email"><br><br>
-<label for="telefone">Telefone:</label><br>
-<input type="tel" id="telefone"><br><br>
-<label for="reclamacao">Reclamação:</label><br>
-<input type="text" for="text" id="reclamacao"><br><br>
-</article>
-    </form>
-    </section>
+      <main class="contentMain paginaSobre">
+        <section>
+          <h1>Página Contato</h1>
+          <form>
+            <article class="form-group">
+              <label for="nome">Nome: </label>
 
-    <footer>
-  <p>@ 2026 Mc Máquinas</p>
-</footer>
-</main>
+              <input type="text" for="nome" id="nome" />
+            </article>
+            <article class="form-group">
+              <label for="email">Email: </label>
+              <input type="text" for="email" id="email" />
+            </article>
 
+            <article class="form-group">
+              <label for="telefone">Telefone: </label>
+              <input type="tel" id="telefone" />
+            </article>
+
+            <article class="form-group">
+              <label for="sexo">Sexo: </label>
+
+              <select name="sexo" id="sexo">
+                <option value="m">Masculino</option>
+                <option value="F">Feminino</option>
+              </select>
+            </article>
+
+            <article class="form-group">
+              <h1>Deseja receber informações</h1>
+              <label for="s">Sim? </label>
+              <input type="checkbox" id="s" />
+            </article>
+
+            <article class="form-group">
+              <button>Enviar</button>
+            </article>
+
+            <article class="form-group">
+                <a class="inCadrastro" href="/cadrastro.html">Click aqui para cadrastra-se</a>
+            </article>
+          </form>
+        </section>
+
+        <footer>
+          <p>@ 2026 Mc Máquinas</p>
+        </footer>
+      </main>
     </div>
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>
