@@ -1,5 +1,5 @@
-const botoes = document.querySelector(".accordion");
-const paneis = document.querySelector(".panel");
+const botoes = document.querySelectorAll(".accordion");
+const paneis = document.querySelectorAll(".panel");
 
 for (let i = 0; i < botoes.length; i++){
     let numero = i;
