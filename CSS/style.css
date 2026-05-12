@@ -1,3 +1,137 @@
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ 
+body {
+
+    background: #f5f5f5;
+}
+
+.contentMain {
+    margin: 0 auto;
+    /*largura*/
+    max-width: 1000px;
+    width: 100%;
+}
+
+header {
+    /* Tamanho altura */
+    height: 100px;
+    background: #222;
+    /* COR DE TEXTO */
+    color: #fff;
+    /*FlexBox*/
+    display: flex;
+    border-bottom: 5px solid #191970;
+}
+
+.contentHeader {
+    margin: 0 auto;
+    /*largura*/
+    max-width: 1000px;
+    width: 100%;
+    /*FlexBox*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+header nav ul a:hover{
+    text-decoration: underline;
+    color:orange
+}
+
+/*carousel*/
+.carousel article{
+    margin-top: 20px;
+}
+
+.carousel img {
+    border-radius: 10px;
+} 
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid gray
+}
+
+/* Extra */
+.extra {
+    background: #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* página sobre */
+
+.paginaSobre h1 {
+    color: #191970;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;

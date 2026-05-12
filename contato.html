@@ -13,7 +13,7 @@
           <h2>Menu</h2>
           <nav>
             <ul>
-              <li><a href="/sobre.html">Início</a></li>
+              <li><a href="/index.html">Início</a></li>
               <li><a href="/sobre.html">Sobre</a></li>
               <li><a href="/contato.html">Contato</a></li>
             </ul>
@@ -23,12 +23,14 @@
       <main class="contentMain paginaSobre">
         <section>
           <h1>Página Contato</h1>
-          <form>
+          <form id="meuFormulario">
             <article class="form-group">
               <label for="nome">Nome: </label>
 
               <input type="text" for="nome" id="nome" />
             </article>
+
+
             <article class="form-group">
               <label for="email">Email: </label>
               <input type="text" for="email" id="email" />
@@ -36,14 +38,14 @@
 
             <article class="form-group">
               <label for="telefone">Telefone: </label>
-              <input type="tel" id="telefone" />
+              <input type="number" id="telefone" />
             </article>
 
             <article class="form-group">
               <label for="sexo">Sexo: </label>
 
               <select name="sexo" id="sexo">
-                <option value="m">Masculino</option>
+                <option value="M">Masculino</option>
                 <option value="F">Feminino</option>
               </select>
             </article>
@@ -55,11 +57,11 @@
             </article>
 
             <article class="form-group">
-              <button>Enviar</button>
+              <button type="submit">Enviar</button>
             </article>
 
             <article class="form-group">
-                <a class="inCadrastro" href="/cadrastro.html">Click aqui para cadrastra-se</a>
+                <a class="inCadrastro" href="/cadastro.html">Click aqui para cadrastra-se</a>
             </article>
           </form>
         </section>
@@ -69,6 +71,6 @@
         </footer>
       </main>
     </div>
-    <script src="/js/script.js"></script>
+    <script src="/js/validacao.js"></script>
   </body>
 </html>
